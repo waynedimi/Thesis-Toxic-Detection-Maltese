@@ -1,0 +1,22 @@
+# Ignore all CSV files
+*.csv
+*.png
+
+# Ignore all model files (assuming they have extensions like .h5, .model, .pkl, etc.)
+*.h5
+*.model
+*.pkl
+*.pth
+
+# Ignore .env file
+.env
+
+# Ignore any other model files or directories if necessary
+models/
+MalteseTestSet/
+MixedDataset/
+GoogleKey/
+Dataset_English/
+checkpoints/
+BERTuModel/
+Pictures/
